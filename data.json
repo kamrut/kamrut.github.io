@@ -1,5 +1,15 @@
 [
   {
+    "RecordTime": "2025-07-22T11:48:14.7649709+05:30",
+    "TotalCallOI": 178364925.0,
+    "TotalPutOI": 122239275.0,
+    "CallOIChange": 0.0,
+    "PutOIChange": -1275.0,
+    "PCR": 0.685332472177476,
+    "IsBusy": false,
+    "Title": ""
+  },
+  {
     "RecordTime": "2025-07-22T11:47:14.7486461+05:30",
     "TotalCallOI": 178364925.0,
     "TotalPutOI": 122240550.0,
@@ -186,16 +196,6 @@
     "CallOIChange": -28725.0,
     "PutOIChange": -6300.0,
     "PCR": 0.690061429349916,
-    "IsBusy": false,
-    "Title": ""
-  },
-  {
-    "RecordTime": "2025-07-22T11:28:14.448681+05:30",
-    "TotalCallOI": 177708450.0,
-    "TotalPutOI": 122616225.0,
-    "CallOIChange": 1114200.0,
-    "PutOIChange": 424875.0,
-    "PCR": 0.689985338344913,
     "IsBusy": false,
     "Title": ""
   }
