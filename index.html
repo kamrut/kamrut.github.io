@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Options OI Dashboard</title>
+  <script>
+  // Refresh the page every 3 minutes (6,000 ms)
+  setTimeout(() => {
+    window.location.reload();
+  }, 60000);
+</script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
@@ -104,7 +110,7 @@
       .then(res => res.json())
       .then(data => {
         const tbody = document.querySelector('#totalTable tbody');
-        const last20 = data.slice(-20).reverse();
+       const last20 = data.slice(-20).reverse(); //
         last20.forEach((d, i) => {
           const row1 = document.createElement('tr');
           const row2 = document.createElement('tr');
@@ -187,3 +193,13 @@
   </script>
 </body>
 </html>
+
+<!-- updated at 2025-07-22 11:05:07 -->
+<!-- updated at 2025-07-22 11:06:07 -->
+<!-- updated at 2025-07-22 11:07:07 -->
+<!-- updated at 2025-07-22 11:08:07 -->
+<!-- updated at 2025-07-22 11:09:07 -->
+<!-- updated at 2025-07-22 11:09:59 -->
+<!-- updated at 2025-07-22 11:10:07 -->
+<!-- updated at 2025-07-22 11:11:07 -->
+<!-- updated at 2025-07-22 11:12:07 -->
