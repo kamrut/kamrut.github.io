@@ -110,7 +110,8 @@
       .then(res => res.json())
       .then(data => {
         const tbody = document.querySelector('#totalTable tbody');
-       const last20 = data.slice(-20); //
+        const sorted = data.sort((a, b) => new Date(b.RecordTime) - new Date(a.RecordTime));
+		const last20 = sorted.slice(0, 20); // newest 20
         last20.forEach((d, i) => {
           const row1 = document.createElement('tr');
           const row2 = document.createElement('tr');
@@ -215,3 +216,4 @@
 <!-- updated: 2025-07-22 11:36:14 -->
 <!-- updated: 2025-07-22 11:37:14 -->
 <!-- updated: 2025-07-22 11:38:14 -->
+<!-- updated: 2025-07-22 11:39:14 -->
