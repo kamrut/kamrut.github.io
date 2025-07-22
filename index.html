@@ -110,7 +110,7 @@
       .then(res => res.json())
       .then(data => {
         const tbody = document.querySelector('#totalTable tbody');
-       const last20 = data.slice(-20).reverse(); //
+       const last20 = data.slice(-20); //
         last20.forEach((d, i) => {
           const row1 = document.createElement('tr');
           const row2 = document.createElement('tr');
@@ -209,3 +209,4 @@
 <!-- updated: 2025-07-22 11:30:14 -->
 <!-- updated: 2025-07-22 11:31:14 -->
 <!-- updated: 2025-07-22 11:32:14 -->
+<!-- updated: 2025-07-22 11:33:14 -->
